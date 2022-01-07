@@ -1,0 +1,121 @@
+.blog-container {
+	padding-top: 150px;
+	padding-bottom: 30px;
+	width: 80%;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 100px;
+}
+
+.blog-card {
+	font-family: main_font_s;
+	position: relative;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	z-index: 1;
+	margin: 10px;
+	height: 450px;
+}
+
+.blog-time {
+	position: relative;
+	top:0;
+	left: 0;
+	font-size: 0.8rem;
+	z-index: 10;
+}
+
+.blog-content {
+	position: absolute;
+	bottom: 20;
+	left: 30;
+	right: 30;
+}
+
+.blog-title {
+	position: relative;
+	font-size: 1.7rem;
+	font-weight: bold;
+	z-index: 10;
+}
+
+.blog-footer {
+	position: relative;
+	margin-top: 10px;
+	padding-top: 15px;
+	z-index: 10;
+	border-top: 1px solid #eee;
+	font-size: 0.8rem;
+}
+
+.blog-card-dark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	filter: brightness(60%);
+	z-index: 0;
+}
+
+.blog-icon {
+	font-family: main_font_s;
+	font-size: 0.8rem;
+}
+
+.project-bg {
+	background-image: url(../images/ourproject.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.autocar-bg {
+	background-image: url(../images/tech4sd.jpeg);
+	background-size: cover;
+	background-position: center;
+}
+
+.secure-bg {
+	background-image: url(../images/tech1cs.jpeg);
+	background-size: cover;
+	background-position: center;
+}
+
+.robot-bg {
+	background-image: url(../images/tech3robot.jpeg);
+	background-size: cover;
+	background-position: center;
+}
+
+.cloud-bg {
+	background-image: url(../images/tech2cc.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.interview-bg {
+	background-image: url(../images/interview.webp);
+	background-size: cover;
+	background-position: center;
+}
+
+.job-bg {
+	background-image: url(../images/job.jpeg);
+	background-size: cover;
+	background-position: center;
+}
+
+.custom-fa{
+ font-size:12em;
+ -webkit-text-stroke-color: red;
+color:transparent;
+}
+
+@media only screen and (max-width: 600px) {
+	.blog-card {
+		height: 350px;
+	}
+}

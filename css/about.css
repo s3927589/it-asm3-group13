@@ -1,0 +1,204 @@
+.about-section {
+	margin: 50px;
+}
+
+.about-img {
+	margin: 20px;
+	max-width: 400px;
+}
+
+.about-title {
+	font-size: 1.7rem;
+	font-weight: bold;
+}
+
+.about-wall-container {
+	width: 100%;
+	height: 90vh;
+	max-height: 90vh;
+	background-image: url("../images/about_wall.png");
+	background-size: cover;
+	background-position: left center;
+}
+
+.circle-img {
+	border-radius: 50%;
+	max-width: 200px;
+	display: inline-block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 40px;
+}
+
+.carousel-item {
+	line-height: 2rem;
+	letter-spacing: 0.1rem;
+}
+
+
+.about-expert {
+	width: 100%;
+	padding: 50px;
+	padding-bottom: 0;
+	background-color: #212121;
+	color: #fff;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.about-expert-left {
+	width: 50%;
+	display: block;
+	text-align: center;
+	padding: 50px;
+}
+
+.about-expert-right {
+	width: 50%;
+	display: block;
+	text-align: center;
+	padding: 50px;
+	padding-top: 350px;
+}
+.about-expert-title {
+	margin-top: 70px;
+	margin-bottom: 50px;
+}
+
+.about-expert-img {
+	width: 100%;
+	text-align: center;
+	padding-top: 250px;
+	padding-bottom: 250px;
+	position: relative;
+	z-index: 1;
+	margin-bottom:50px;
+}
+
+.z1 {
+	z-index: 10;
+	position: relative;
+	font-size: 2rem;
+	font-weight: 600;
+	text-shadow: 2px 2px 20px #000;
+}
+
+.about-expert-content {
+	width: 60%;
+	font-size: 1.2rem;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 100px;
+}
+
+.duong-ava {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:0;
+	left:0;
+	background-image: url(../images/duong-ava.JPG);
+	background-size: cover;
+	background-position: center;
+	filter: brightness(0.7);
+	z-index: 0;
+}
+
+.binh-ava {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:0;
+	left:0;
+	background-image: url(../images/binhava.jpeg);
+	background-size: cover;
+	filter: brightness(0.7);
+	z-index: 0;
+}
+
+.minhanh-ava {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:0;
+	left:0;
+	background-image: url(../images/minhanh-ava.jpeg);
+	background-size: cover;
+	background-position: center;
+	filter: brightness(0.7);
+	z-index: 0;
+}
+
+.khang-ava {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:0;
+	left:0;
+	background-image: url(../images/khangava.jpg);
+	background-size: cover;
+	background-position: center;
+	filter: brightness(0.7);
+	z-index: 0;
+}
+
+.about-test-container {
+	width: 100%;
+	/* display: flex; */
+	/* flex-direction: row; */
+	/* flex-wrap: wrap; */
+	/* justify-content: space-around; */
+	margin-top: 100px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.about-test-section {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.about-test-section h6 {
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+.owl-nav {
+	font-size: 10rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.owl-prev {
+	position: absolute;
+	left: 30;
+}
+
+.owl-next {
+	position: absolute;
+	right: 30;
+}
+
+.owl-nav .owl-next:hover, .owl-nav .owl-prev:hover {
+	background: none !important;
+	color: black !important;
+}
+
+@media only screen and (max-width: 750px) {
+.about-expert-right {
+	width: 100%;
+	padding-top: 0;
+}
+
+.about-expert-left {
+	width: 100%;
+}
+
+.about-wall-container {
+	background-position: left center;
+}
+}

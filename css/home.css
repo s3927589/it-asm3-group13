@@ -1,0 +1,322 @@
+.home-wall-container {
+	width: 100%;
+	height: 90vh;
+	max-height: 90vh;
+	/* background-image: url("../images/home_wall.jpg"); */
+	background-image: url("../images/bg_2.jpeg");
+	background-size: cover;
+}
+
+.home-wall {
+	width: 100%;
+}
+
+.home-name-container {
+	padding-top: 150px;
+	padding-bottom: 150px;
+	text-align: center;
+	background-image: url("../images/water_mark.png");
+	background-size: cover;
+}
+
+.home-name {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.home-name-title {
+	font-size: 5rem;
+	font-weight: 600;
+}
+
+.home-name-subtitle {
+	font-size: 1.5rem;
+}
+
+.home-info-dark {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color: #212121;
+}
+
+.home-info-dark-content {
+	width: 50%;
+	display: block;
+	background-color: #212121;
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.home-info-dark-subcontent {
+	width: 60%;
+	display: block;
+	background-color: #424242;
+	color: #fff;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 50px;
+	line-height: 2rem;
+}
+
+
+.home-info-dark-img {
+	width: 50%;
+	display: block;
+}
+
+.home-info-light {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.home-info-light-img {
+	width: 50%;
+	display: block;
+	padding: 80px;
+}
+
+.home-info-light-content {
+	width: 50%;
+	display: block;
+	background-color: #fff;
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.home-info-light-subcontent {
+	width: 80%;
+	display: block;
+	color: #212121;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 50px;
+	line-height: 2rem;
+}
+
+
+.minhanh-bg {
+	background-image: url(../images/minhanhava.jpeg);
+	background-size: cover;
+	background-position: center;
+}
+
+.khang-bg {
+	background-image: url(../images/khangava.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.duong-bg {
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/duongava.JPG);
+	background-size: cover;
+	background-position: center;
+}
+
+.binh-bg {
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/binhava.jpeg);
+	background-size: cover;
+	box-shadow: -20px 20px #212121;
+	background-position: center;
+}
+
+.home-project-container {
+	width: 100%;
+	padding: 50px;
+	background-color: #212121;
+}
+
+.home-project {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.home-project-content {
+	width: 50%;
+	display: block;
+	color: #fff;
+	background-color: #424242;
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.home-project-subcontent {
+	width: 80%;
+	display: block;
+	color: #fff;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 50px;
+	line-height: 2rem;
+}
+
+
+.home-project-img {
+	width: 50%;
+	display: block;
+	background-image: url(../images/ourproject.png);
+	background-size: cover;
+	background-position: center;
+}
+
+@media only screen and (max-width: 500px) {
+	.home-wall-container {
+		height: 50vh;
+		background-position: center;
+	}
+
+	.home-info-dark-content {
+		width: 100%;
+	}
+
+	.home-info-dark-img {
+		width: 100%;
+		height: 50vh;
+		margin-right: auto;
+		margin-left: auto;
+		margin-bottom: 0;
+	}
+
+	.home-info-dark-subcontent {
+		width: 100%;
+		display: block;
+		background-color: transparent;
+		color: #fff;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 50px;
+		padding-top: 0;
+		line-height: 2rem;
+	}
+
+	.home-info-light-content {
+		width: 100%;
+		padding-top: 0px;
+	}
+
+	.home-info-light {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		padding: 0;
+	}
+
+	.home-info-light-img {
+		width: 100%;
+		height: 60vh;
+		margin-right: auto;
+		margin-left: auto;
+		margin-bottom: 0;
+		padding: 0;
+	}
+
+	.home-info-light-content {
+		width: 100%;
+		margin-right: auto;
+		margin-left: auto;
+		margin-bottom: 0;
+		padding: 0;
+	}
+
+	.home-project-container {
+		width: 100%;
+		padding: 0;
+	}
+
+	.home-info-light-subcontent {
+		width: 100%;
+		display: block;
+	}
+
+	.home-project-content {
+		width: 100%;
+	}
+
+	.home-project-subcontent {
+		text-align: center;
+	}
+
+	.home-project-img {
+		width: 100%;
+		height: 50vh;
+	}
+
+	.duong-bg {
+		background-position: center top;
+	}
+
+	.binh-bg {
+		background-position: center top;
+	}
+}
+
+@media only screen and (max-width: 992px) and (min-width: 501px){
+.home-info-dark-content {
+	width: 100%;
+}
+
+.home-info-dark-img {
+	width: 80%;
+	height: 80vh;
+	margin: 70px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.home-info-dark-subcontent {
+	width: 80%;
+	display: block;
+	background-color: #424242;
+	color: #fff;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 50px;
+	line-height: 2rem;
+}
+
+.home-info-light-content {
+	width: 100%;
+	padding-top: 0px;
+}
+
+.home-info-light-img {
+	width: 100%;
+	height: 80vh;
+	margin: 70px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0;
+}
+
+.home-project-content {
+	width: 100%;
+}
+
+.home-project-subcontent {
+	padding: 30px;
+	text-align: center;
+}
+.home-project-img {
+	width: 100%;
+	height: 80vh;
+}
+	.duong-bg {
+		background-position: center top;
+	}
+}
+
