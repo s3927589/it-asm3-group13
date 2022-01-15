@@ -49,7 +49,7 @@
 }
 
 .project-des {
-	background-color: #3b64a6;
+	background-color: #424242;
 	padding-top: 100px;
 	padding-bottom: 100px;
 	padding-left: 50px;
@@ -116,19 +116,19 @@
 }
 
 .gbg1 {
-	background-image: url("../images/tech2cc.png");
+	background-image: url("../images/aim.jpeg");
 }
 
 .gbg2 {
-	background-image: url("../images/tech1cs.jpeg");
+	background-image: url("../images/test.jpeg");
 }
 
 .gbg3 {
-	background-image: url("../images/tech2cc.png");
+	background-image: url("../images/timeframe.jpeg");
 }
 
 .gbg4 {
-	background-image: url("../images/tech1cs.jpeg");
+	background-image: url("../images/risk.jpeg");
 }
 
 .circle-img {
