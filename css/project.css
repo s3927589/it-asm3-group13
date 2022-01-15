@@ -4,7 +4,7 @@
 	max-height: 90vh;
 	background-image: url("../images/ourproject.png");
 	background-size: cover;
-	background-position: left center;
+	background-position: center;
 	position: relative;
 }
 
@@ -26,13 +26,161 @@
 	padding-top: 15%;
 }
 
-.project-section {
-	padding-top: 70px;
-	padding-bottom: 70px;
+.project-name-container {
+	padding-top: 150px;
+	padding-bottom: 150px;
+	text-align: center;
+	/* background-image: url("../images/water_mark.png"); */
+	/* background-size: cover; */
 }
 
-.project-section-title {
+.project-name {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.project-name-title {
+	font-size: 5rem;
+	font-weight: 600;
+}
+
+.project-name-subtitle {
+	font-size: 1.5rem;
+}
+
+.project-des {
+	background-color: #424242;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	padding-left: 50px;
+	padding-right: 50px;
+	color: white;
+}
+
+.project-des-title {
 	font-size: 3rem;
-	font-weight: bold;
+	font-weight: 600;
+	width: 100%;
 	text-align: center;
+	margin-bottom: 70px;
+}
+
+.project-des-grid {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.project-grid-header {
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.4);
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+
+.project-grid-content {
+	width: 100%;
+	position: relative;
+	background-color: rgba(0, 0, 0, 0.6);
+	text-align: center;
+	line-height: 2rem;
+	padding: 70px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.row .col.l3 {
+  padding: 0;
+}
+
+.row .col.m6 {
+  padding: 0;
+}
+
+.project-grid-content p {
+	height: 200px;
+}
+
+.project-grid-content a {
+	margin-top: 50px;
+}
+
+.project-des-grid col {
+	background-size: cover;
+	background-position: center;
+}
+
+.gbg1 {
+	background-image: url("../images/aim.jpeg");
+}
+
+.gbg2 {
+	background-image: url("../images/test.jpeg");
+}
+
+.gbg3 {
+	background-image: url("../images/timeframe.jpeg");
+}
+
+.gbg4 {
+	background-image: url("../images/risk.jpeg");
+}
+
+.circle-img {
+	border-radius: 50%;
+	max-width: 200px;
+	display: inline-block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 40px;
+}
+
+.item {
+	padding-bottom: 50px;
+}
+
+.carousel-item {
+	line-height: 2rem;
+	letter-spacing: 0.1rem;
+}
+
+.project-career {
+	padding-top: 100px;
+}
+
+.project-career-title {
+	font-size: 3rem;
+	font-weight: 600;
+}
+
+.project-career-subtitle {
+	font-size: 1.5rem;
+}
+
+.owl-nav {
+	font-size: 10rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.owl-prev {
+	position: absolute;
+	left: 30;
+}
+
+.owl-next {
+	position: absolute;
+	right: 30;
+}
+
+.owl-nav .owl-next:hover, .owl-nav .owl-prev:hover {
+	background: none !important;
+	color: black !important;
 }
