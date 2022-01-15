@@ -66,44 +66,20 @@
 	font-size: 0.8rem;
 }
 
-.project-bg {
-	background-image: url(../images/ourproject.png);
-	background-size: cover;
-	background-position: center;
-}
-
-.autocar-bg {
-	background-image: url(../images/tech4sd.jpeg);
-	background-size: cover;
-	background-position: center;
-}
-
-.secure-bg {
-	background-image: url(../images/tech1cs.jpeg);
-	background-size: cover;
-	background-position: center;
-}
-
-.robot-bg {
-	background-image: url(../images/tech3robot.jpeg);
-	background-size: cover;
-	background-position: center;
-}
-
-.cloud-bg {
-	background-image: url(../images/tech2cc.png);
-	background-size: cover;
-	background-position: center;
-}
-
-.interview-bg {
-	background-image: url(../images/interview.webp);
-	background-size: cover;
-	background-position: center;
-}
-
-.job-bg {
+.career-bg {
 	background-image: url(../images/job.jpeg);
+	background-size: cover;
+	background-position: center;
+}
+
+.process-bg {
+	background-image: url(../images/collab.jpeg);
+	background-size: cover;
+	background-position: center;
+}
+
+.reflection-bg {
+	background-image: url(../images/reflection.jpeg);
 	background-size: cover;
 	background-position: center;
 }

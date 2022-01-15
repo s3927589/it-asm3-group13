@@ -117,18 +117,22 @@
 
 .gbg1 {
 	background-image: url("../images/aim.jpeg");
+	background-size: cover;
 }
 
 .gbg2 {
 	background-image: url("../images/test.jpeg");
+	background-size: cover;
 }
 
 .gbg3 {
 	background-image: url("../images/timeframe.jpeg");
+	background-size: cover;
 }
 
 .gbg4 {
 	background-image: url("../images/risk.jpeg");
+	background-size: cover;
 }
 
 .circle-img {
